@@ -1,0 +1,26 @@
+.country-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+.country {
+    background-color:mediumaquamarine;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.country img {
+    width: 320px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 5px 10px #888888;
+}
+
+.country a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
