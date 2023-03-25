@@ -10,7 +10,7 @@ const Countries = () => {
         .then(data => setCountries(data));
     } , [])
     return (
-        <div>
+        <div className='mt-5'>
             <h1>Hello From Other Countries</h1>
             <h2>Number of Countries: {countries.length}</h2>
             <Country prop={countries} countries={countries}></Country>
